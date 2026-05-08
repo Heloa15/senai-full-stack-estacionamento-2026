@@ -1,11 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Estacionamento ACME</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <h1>🚗 Estacionamento ACME</h1>
+
+        <form id="form-estacionamento">
+
+            <input
+                type="text"
+                id="placa"
+                placeholder="Placa"
+                required
+            >
+
+            <input
+                type="text"
+                id="proprietario"
+                placeholder="Proprietário"
+                required
+            >
+
+            <input
+                type="text"
+                id="tipo"
+                placeholder="Tipo do veículo"
+                required
+            >
+
+            <input
+                type="text"
+                id="modelo"
+                placeholder="Modelo"
+                required
+            >
+
+            <input
+                type="text"
+                id="marca"
+                placeholder="Marca"
+                required
+            >
+
+            <input
+                type="text"
+                id="cor"
+                placeholder="Cor"
+                required
+            >
+
+            <input
+                type="number"
+                id="ano"
+                placeholder="Ano"
+                required
+            >
+
+            <input
+                type="text"
+                id="telefone"
+                placeholder="Telefone"
+                required
+            >
+
+            <input
+                type="number"
+                id="valorHora"
+                placeholder="Valor por Hora"
+                required
+            >
+
+            <button type="submit">
+                Cadastrar
+            </button>
+
+        </form>
+
+        <h2>📋 Automóveis cadastrados</h2>
+
+        <ul
+            id="lista-carros"
+            class="lista-carros"
+        >
+
+        </ul>
+
+        <h2 class="titulo-estadia">
+            🅿️ Registrar Estadia
+        </h2>
+
+        <form id="form-estadia">
+
+            <input
+                type="text"
+                id="placaEstadia"
+                placeholder="Placa do automóvel"
+                required
+            >
+
+            <label for="entrada">
+                Entrada
+            </label>
+
+            <input
+                type="datetime-local"
+                id="entrada"
+                required
+            >
+
+            <label for="saida">
+                Saída
+            </label>
+
+            <input
+                type="datetime-local"
+                id="saida"
+                required
+            >
+
+            <button type="submit">
+                Registrar Estadia
+            </button>
+
+        </form>
+
+        <h2>📄 Estadias registradas</h2>
+
+        <ul
+            id="lista-estadias"
+            class="lista-carros"
+        >
+
+        </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
