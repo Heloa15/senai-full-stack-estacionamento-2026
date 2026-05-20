@@ -46,14 +46,12 @@ O ESTACIONAMENTO ACME tem atuado em nossa cidade com ótimo atendimento e segura
 
 - Node.js
 - JavaScript
-- Express
-- Prisma ORM
 - MySQL
 - Insomnia
 - HTML
 - CSS
 - Bootstrap
-- Git e GitHub
+- GitHub
 
 ---
 
